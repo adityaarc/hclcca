@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+
+    <title>Document</title>
+</head>
+<body>
+            
+            <div id="login">
+                
+                <div id="text">
+                    
+                    <h2>Hellooo!!</h2>
+                    <h2>Welcome Back </h2>
+
+                </div>
+
+                <div id="log">
+                    <h2>Login</h2>
+                </div>
+
+                <div id="contain">
+
+                    <form>
+
+                        <div class="input-field">
+                        
+                            <input type="text" required>
+                            <label>Email or Username</label>
+                        
+                        </div>
+        
+                        <div class="input-field">
+                        
+                            <input class="pswrd" type="password" required>
+                            <span class="show">SHOW</span>
+                            <label>Password</label>
+                        
+                        </div>
+                        
+                        <div class="button">
+                        
+                            <div class="inner"></div>
+                            <button>LOGIN</button>
+        
+                        </div>
+        
+                    </form>
+
+                </div>
+
+                <div class="auth">
+                    Or login with
+                 </div>
+
+                 
+                <div id="sm">
+                    <div id="gog"></div>
+                    <div id="fb"></div>
+                    <div id="twt"></div>
+                </div>
+
+                <div class="signup">
+                    Not a member? <a href="#">Signup now</a>
+                </div>
+                
+                
+            </div>
+            
+
+        <script>
+         
+            var input = document.querySelector('.pswrd');
+            var show = document.querySelector('.show');
+   
+            show.addEventListener('click', active);
+            function active(){
+              if(input.type === "password"){
+                input.type = "text";
+                show.style.color = "#1DA1F2";
+                show.textContent = "HIDE";
+              }else{
+                input.type = "password";
+                show.textContent = "SHOW";
+                show.style.color = "#111";
+              }
+            }
+   
+         </script>
+
+</body>
+</html>
+
+
+                 <!--
+               
+            <form>
+
+                <div class="input-field">
+                
+                    <input type="text" required>
+                    <label>Email or Username</label>
+                
+                </div>
+
+                <div class="input-field">
+                
+                    <input class="pswrd" type="password" required>
+                    <span class="show">SHOW</span>
+                    <label>Password</label>
+                
+                </div>
+                
+                <div class="button">
+                
+                    <div class="inner"></div>
+                    <button>LOGIN</button>
+
+                </div>
+
+            </form>
+
+                <form>
+                    <div class="inputBox">
+                        <span><i class="fa fa-user"></i></span>
+                        <input type="text" placeholder="username">
+                    </div>
+                    
+                    <div class="inputBox">
+                        <span><i class="fa fa-lock"></i></span>
+                        <input type="text" placeholder="password">
+                    </div>
+
+                    <input type="submit" value="Login">
+
+                </form>
+                -->
