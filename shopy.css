@@ -109,7 +109,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-  color:var(--red);
+  color:white;
 }
 
 #menu-bar{
