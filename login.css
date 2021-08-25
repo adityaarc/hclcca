@@ -279,3 +279,41 @@ body{
   top:-120%;
 }
 
+
+@media(max-width:960px){
+
+  #box{
+    width: 100%;
+  }
+
+  #login{
+    width: 70%;
+    height:550px;
+  }
+
+  
+  body{
+    background-image: url(cca.jpg);
+    background-repeat: repeat;
+  }
+}
+
+
+@media(max-width:1050px){
+
+  #box{
+    width: 100%;
+  }
+
+  #login{
+    width: 60%;
+    height:580px;
+
+  }
+
+  body{
+    background-image: url(cca.jpg);
+    background-repeat: repeat;
+  }
+}
+
