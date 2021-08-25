@@ -1,5 +1,6 @@
 # HCL CCA FAN ENGAGEMENT
 REPOSITORY FOR PAGES OF HCL CRICKET AUSTRALIA HACKATHON PAGES
+This Repo Contains only the Frontend Part of the Website
 
 1) LOGIN PAGE : https://adityaarc.github.io/hclcca/   ( index.html  ||   login.css  )
                 
