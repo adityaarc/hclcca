@@ -8,6 +8,6 @@ This Repo Contains only the Frontend Part of the Website
 
 3) SHOPPING PAGE : https://adityaarc.github.io/hclcca/shop   ( shop.html  ||  shopy.css   ||   shopi.js  )
 
-4) PRICING PAGE :
+4) UC STORE : https://adityaarc.github.io/hclcca/ucstore   ( ucstore.html  ||  ucstore.css   ||   shopi.js  )
 
 5) THANK YOU PAGE :
