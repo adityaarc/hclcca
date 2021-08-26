@@ -188,7 +188,7 @@ header .navbar a:hover{
 
 .popular .box-container .box img{
   height:25rem;
-  object-fit: cover;
+  object-fit: contain;
   width:100%;
   border-radius: .5rem;
 }
