@@ -10,4 +10,4 @@ This Repo Contains only the Frontend Part of the Website
 
 4) UC STORE : https://adityaarc.github.io/hclcca/ucstore   ( ucstore.html  ||  ucstore.css   ||   shopi.js  )
 
-5) THANK YOU PAGE :
+5) Hand Cricket : https://adityaarc.github.io/hclcca/handc   ( handc.html  ||  hand.css   ||   hand.js  )
